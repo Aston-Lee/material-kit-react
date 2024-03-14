@@ -20,10 +20,10 @@ import Divider from "@mui/material/Divider";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
-import MKTypography from "components/MKTypography";
+// import MKTypography from "components/MKTypography";
 
 // Material Kit 2 React examples
-import DefaultReviewCard from "examples/Cards/ReviewCards/DefaultReviewCard";
+// import DefaultReviewCard from "examples/Cards/ReviewCards/DefaultReviewCard";
 
 // Images
 import appleLogo from "assets/images/logos/gray-logos/logo-apple.svg";
@@ -36,7 +36,7 @@ function Information() {
   return (
     <MKBox component="section" py={12}>
       <Container>
-        <Grid
+        {/* <Grid
           container
           item
           xs={12}
@@ -79,7 +79,7 @@ function Information() {
               rating={5}
             />
           </Grid>
-        </Grid>
+        </Grid> */}
         <Divider sx={{ my: 6 }} />
         <Grid container spacing={3} justifyContent="center">
           <Grid item xs={6} md={4} lg={2}>

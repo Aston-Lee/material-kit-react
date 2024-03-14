@@ -14,7 +14,7 @@ const date = new Date().getFullYear();
 
 export default {
   brand: {
-    name: "Material Kit 2",
+    name: "xMAD.ai",
     image: logoCT,
     route: "/",
   },
@@ -28,8 +28,9 @@ export default {
       link: "https://twitter.com/creativetim",
     },
     {
+      // github link
       icon: <GitHubIcon />,
-      link: "https://github.com/creativetimofficial",
+      link: "https://github.com/tonyzhang617/nomad-dist",
     },
     {
       icon: <YouTubeIcon />,
@@ -74,7 +75,7 @@ export default {
   ],
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
-      All rights reserved. Copyright &copy; {date} Material Kit by{" "}
+      All rights reserved. Copyright &copy; {date} Material Kit by{" xMAD.ai "}
       <MKTypography
         component="a"
         href="https://www.creative-tim.com"
@@ -83,9 +84,8 @@ export default {
         variant="button"
         fontWeight="regular"
       >
-        Creative Tim
+        {/* Creative Tim */}
       </MKTypography>
-      .
     </MKTypography>
   ),
 };
